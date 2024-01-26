@@ -1,0 +1,95 @@
+.logo__footer{
+    width: 180px;
+    filter: grayscale(100);
+    margin-bottom: 50px;
+}
+
+.logo__redes{
+   width: 42px;
+   height: 42px;
+   border: solid #393939;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+   cursor: pointer;
+    
+}
+
+footer{
+    height: max-content;
+    display: flex;
+    background-color: #0D0D0D ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos__redes__container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    
+    
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.subfooter__container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.maps__container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.maps__container h4{
+    font-size: 22px;
+    width: 600px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+@media only screen and  (max-width:600px) {
+        .hablame{
+            flex-direction: column;
+            padding: 40px;
+            padding-top: 50px;
+            width: 95%;
+            
+            
+        }
+        .hablame button{
+            margin-top: 30px;
+        }
+        .hablame p{
+            margin-top: 30px;
+            text-align: center;
+        }
+        footer h3{
+            width: 80%;
+            margin-top: 30px;
+            text-align: center;
+        }
+}

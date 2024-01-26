@@ -1,0 +1,178 @@
+.logo{
+    width: 70px;
+    padding-left: 20px;
+}
+body{
+  scroll-snap-type: y mandatory;
+}
+a{
+  text-decoration: none !important;
+}
+
+.menu-boton{
+    display: none;
+    margin-right: 1em;
+    color: #8448D8;
+   
+  }
+  .nav__ul{
+    display: flex;
+    flex-flow: row nowrap !important;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav__item{
+    margin:0 .9em;
+    color: #FFFFFF;
+    padding: 0 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 21px;
+    text-shadow: #000000 2px 2px 2px;
+}
+ul{
+  padding: 0;
+}
+header {
+    
+    flex-flow: row wrap !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+            top: 0;
+            transition: transform 0.3s;
+  transform: translateY(0); /* Inicialmente mostrado */
+    z-index: 4;
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    
+ }
+ header.is-hidden {
+  transform: translateY(-100%); /* Oculto al hacer scroll hacia abajo */
+}
+.dropdown li{
+  border: solid 1px ;
+  border-radius: 20px;
+  padding: 5px;
+  color: #FFFFFF !important;
+  background-color: #000000;
+}
+
+ .dropdown{
+  display: none;
+  position: absolute !important;
+  width: 250px;
+  top: 30px;
+  right: -60px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style: none;
+ }
+ .dropdown.isActive{
+display: flex ;
+ }
+
+ .dropdown li:hover{
+  padding-left: 20px;
+  transition: all 0.5s ease-in-out;
+  
+  color: #000000 !important;
+  background-color: #692AE8;
+  background: #692AE8;
+box-shadow: inset 20px 20px 60px #692AE8,
+            inset -20px -20px 60px #7031ec;
+            
+ }
+
+ .vennera{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+.luthier{
+  font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-size: 40px;
+}
+h1{
+  color: #FFFFFF;
+  margin-left: .9em;
+  margin-right: .9em;
+  text-shadow: #000000 2px 2px 2px;
+}
+
+
+ @media only screen and  (max-width:850px) {
+  
+  .dropdown li{
+    padding-left: 20px;
+  transition: all 1s ease-in-out;
+  
+  color: white !important;
+  background-color: #1D1D1D;
+  background: #1D1D1D;
+box-shadow: inset 20px 20px 60px #0d0d0d,
+            inset -20px -20px 60px #2d2d2d;
+  }
+
+   
+       
+}
+
+
+ @media only screen and  (max-width:600px) {
+    .menu-boton{
+        display:flex;
+      }
+      header{
+        position: fixed;
+      z-index: 9999;
+      background-color: #1D1D1D;
+      }
+    .header__nav{
+        width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      height: 0vh;
+      overflow: hidden;
+      opacity: 0;
+      transition: all .5s ease;
+      background-color: #1D1D1D;
+    }
+    .header__nav.isActive{
+      font-size: 18px;
+        height: 90vh;
+        opacity: 1;
+        position: relative;
+      z-index: 9999;
+      }
+      .vennera{
+        font-size: 40px;
+      }
+      .luthier{
+      font-size: 20px;
+      }
+header{
+  justify-content: space-between;
+}
+      .nav__ul{
+        flex-direction: column !important;
+      background-color: #1D1D1D;
+      margin-top: 0px;
+      padding-left: 0;
+      
+      
+      }
+      
+         
+ }
