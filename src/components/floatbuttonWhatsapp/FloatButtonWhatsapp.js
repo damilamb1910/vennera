@@ -4,7 +4,7 @@ import './floatButtonWhatsapp.css'
 const FloatButtonWhatsapp = () => {
     const handleClickFloat=(e)=>{
         if(e.target.attributes.id.value==='floatButton'){
-            window.open('https://wa.me/541167526139?text=¡Hola!+Querio+averiguar+por+un+presupuesto', '_blank')
+            window.open('https://wa.me/541136029521?text=¡Hola!+Quiero+averiguar+por+un+presupuesto', '_blank')
           }
     }
   return (

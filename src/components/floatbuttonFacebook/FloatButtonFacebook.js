@@ -4,7 +4,7 @@ import './floatButtonFacebook.css'
 const FloatButtonFacebook = () => {
     const handleClickFloat=(e)=>{
         if(e.target.attributes.id.value==='floatButton'){
-            window.open('https://wa.me/541167526139?text=¡Hola!+Querio+averiguar+por+un+presupuesto', '_blank')
+            window.open('https://www.facebook.com/VenneraLuthier', '_blank')
           }
     }
   return (

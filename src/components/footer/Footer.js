@@ -14,7 +14,7 @@ const Footer = () => {
     <footer>
       <div className='subfooter__container'>
       <div className='maps__container'>
-      <h4>Visítanos con previo aviso. ¡Te esperamos para descubrir el arte de la luthería!</h4>
+      <h4>Visitanos con previo aviso. ¡Te esperamos para descubrir el arte de la luthería!</h4>
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.809578896724!2d-58.58582492425844!3d-34.634252072943255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9aa9c4523f5%3A0xd1b6fec65920487d!2sVennera%20Luthier!5e0!3m2!1ses-419!2sar!4v1706238060978!5m2!1ses-419!2sar"  style={mapStyle} allowFullScreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       </div>
