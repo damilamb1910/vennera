@@ -60,13 +60,27 @@ footer{
     
 }
 .maps__container h4{
-    font-size: 22px;
+    text-align: center;
+    font-size: 20px;
     width: 600px;
     color: #FFFFFF;
 }
 
 
-
+@media only screen and  (max-width:850px) {
+    .subfooter__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .logo__footer{
+        width: 150px;
+        margin-top: 50px;
+    }
+}
 
 
 
@@ -91,5 +105,17 @@ footer{
             width: 80%;
             margin-top: 30px;
             text-align: center;
+        }
+        .maps__container{
+            
+            width: 100%;
+            
+            
+        }
+        .maps__container h4{
+            
+            width: 100%;
+            
+            
         }
 }

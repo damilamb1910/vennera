@@ -79,7 +79,7 @@ const cambiar=()=>{
            <nav className={`header__nav ${menu ? 'isActive' : ''} `}>
             
             
-{windowSize < 768 ? (
+{windowSize < 800 ? (
            <ul  className="nav__ul">
             <Link to={"/acerca"}><li className="nav__item">Nosotros</li></Link>
                 <Link to={'productos/musica'} ><li className="nav__item">Música</li></Link> 
