@@ -81,12 +81,9 @@ const cambiar=()=>{
             
 {windowSize < 800 ? (
            <ul  className="nav__ul">
-            <Link to={"/acerca"}><li className="nav__item">Nosotros</li></Link>
-                <Link to={'productos/musica'} ><li className="nav__item">Música</li></Link> 
-                <Link to={'productos/edicion'}><li className="nav__item">Edición de video</li></Link>
-                <Link to={'productos/programacion'}><li className="nav__item">Programación</li></Link>
-                <Link to={'productos/ilustraciones'}><li className="nav__item">Ilustraciones digitales</li></Link>
-                 
+            <Link to={"/acerca"}><li className="nav__item">Inicio</li></Link>
+                <Link to={'productos/musica'} ><li className="nav__item">Nosotros</li></Link> 
+                <Link to={'productos/edicion'}><li className="nav__item">Servicios</li></Link>
             <li className="nav__item">Redes</li>
             
             </ul>
